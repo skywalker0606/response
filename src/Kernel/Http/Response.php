@@ -15,7 +15,7 @@ use Psr\Http\Message\ResponseInterface as PsrResponseInterface;
 
 /**
  * Class Response
- * @package App\Kernel\Http
+ * @package Response\Response
  */
 class Response extends HttpResponse
 {
