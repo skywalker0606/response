@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Walker\\Response\\' => array($baseDir . '/src/Kernel/Http'),
+    'Heartide\\Response\\' => array($baseDir . '/src/Kernel/Http'),
 );

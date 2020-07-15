@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfd8442dae21cb58494b24712efc40420
+class ComposerStaticInitdaecba4cebdc32308c38dfa3e92acd2b
 {
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'H' => 
         array (
-            'Walker\\Response\\' => 16,
+            'Heartide\\Response\\' => 18,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Walker\\Response\\' => 
+        'Heartide\\Response\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Kernel/Http',
         ),
@@ -23,8 +23,8 @@ class ComposerStaticInitfd8442dae21cb58494b24712efc40420
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfd8442dae21cb58494b24712efc40420::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfd8442dae21cb58494b24712efc40420::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitdaecba4cebdc32308c38dfa3e92acd2b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitdaecba4cebdc32308c38dfa3e92acd2b::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

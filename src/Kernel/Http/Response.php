@@ -9,6 +9,7 @@ use Hyperf\HttpMessage\Exception\HttpException;
 use Hyperf\HttpMessage\Stream\SwooleStream;
 use Hyperf\HttpServer\Contract\ResponseInterface;
 use Hyperf\Utils\Context;
+use Hyperf\HttpServer\Response as HttpResponse;
 use Psr\Container\ContainerInterface;
 use Psr\Http\Message\ResponseInterface as PsrResponseInterface;
 
@@ -16,7 +17,7 @@ use Psr\Http\Message\ResponseInterface as PsrResponseInterface;
  * Class Response
  * @package App\Kernel\Http
  */
-class Response extends \Hyperf\HttpServer\Response
+class Response extends HttpResponse
 {
     /**
      * Response constructor.

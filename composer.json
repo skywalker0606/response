@@ -6,16 +6,11 @@
       "email": "heywallerman@gmail.com"
     }
   ],
-  "keywords": [
-    "php",
-    "swoole",
-    "hyperf"
-  ],
-  "description": "扩展hyperf的Response",
+  "description": "基于Hyperf2.0扩展Response",
   "require": {},
   "autoload": {
     "psr-4": {
-      "Walker\\Response\\": "src/Kernel/Http"
+      "Heartide\\Response\\": "src/Kernel/Http"
     }
   },
   "license": "MIT"
