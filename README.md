@@ -16,6 +16,17 @@
 
 # 安装
 
+- composer.json中增加镜像配置
+
+```json
+"repositories": [
+    {
+      "type": "git",
+      "url": "git@gitlab.heartide.com:composer/response.git",
+    }
+  ],
+```
+
 ```bash
 $ compsoer require "heartide/response"
 ```
