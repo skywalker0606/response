@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Response\Response;
+namespace Heartide\Response;
 
 
 use Hyperf\HttpMessage\Cookie\Cookie;
@@ -15,7 +15,7 @@ use Psr\Http\Message\ResponseInterface as PsrResponseInterface;
 
 /**
  * Class Response
- * @package Response\Response
+ * @package Heartide\Response
  */
 class Response extends HttpResponse
 {
