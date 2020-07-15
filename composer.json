@@ -7,10 +7,16 @@
     }
   ],
   "description": "基于Hyperf2.0扩展Response",
-  "require": {},
+  "require": {
+    "hyperf/http-message": "~2.0.0",
+    "hyperf/http-server": "~2.0.0",
+    "hyperf/utils": "~2.0.0",
+    "psr/container": "^1.0",
+    "psr/http-message": "~1.0"
+  },
   "autoload": {
     "psr-4": {
-      "Heartide\\Response\\": "src/Kernel/Http"
+      "Heartide\\Http\\": "src/Kernel/Http"
     }
   },
   "license": "MIT"

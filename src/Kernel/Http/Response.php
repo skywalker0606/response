@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Heartide\Response;
+namespace Heartide\Http;
 
 
 use Hyperf\HttpMessage\Cookie\Cookie;
