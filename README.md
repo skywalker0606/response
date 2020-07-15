@@ -57,8 +57,26 @@ use Psr\Container\ContainerInterface;
     protected $response;
 ```
 
-- 在任意类和方法中调用
+- 在任意类中extends AbstractController
 ```php
-   return $this->response->success($array);
-   return $this->response->fail($array);
+   class IndexController extends AbstractController
+   {
+       public function index()
+       {
+           $data = [
+                'order_id' => 1234 
+            ];
+           return $this->response->success($data);
+       }
+   }
 ```
+- 效果
+```json
+{
+  "code": 0,
+  "data": {
+    "order_id": 1234
+  }
+}
+```
+
