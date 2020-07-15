@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Walker\Response;
+namespace Response\Response;
 
 
 use Hyperf\HttpMessage\Cookie\Cookie;
