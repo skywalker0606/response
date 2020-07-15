@@ -1,0 +1,22 @@
+{
+  "name": "heartide/response",
+  "authors": [
+    {
+      "name": "Walker",
+      "email": "heywallerman@gmail.com"
+    }
+  ],
+  "keywords": [
+    "php",
+    "swoole",
+    "hyperf"
+  ],
+  "description": "扩展hyperf的Response",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Walker\\Response\\": "src/Kernel/Http"
+    }
+  },
+  "license": "MIT"
+}
