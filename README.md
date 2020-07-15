@@ -24,7 +24,7 @@
       "type": "git",
       "url": "git@gitlab.heartide.com:composer/response.git",
     }
-  ],
+  ]
 ```
 - 引入组件
 
