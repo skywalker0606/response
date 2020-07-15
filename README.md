@@ -26,8 +26,39 @@
     }
   ],
 ```
+- 引入组件
 
 ```bash
 $ compsoer require "heartide/response"
 ```
 
+# 使用
+
+- 文件
+
+```bash
+app/Controller/AbstractController.php
+```
+
+- 删除
+```php
+use Hyperf\HttpServer\Contract\ResponseInterface;
+```
+
+# 注入
+```php
+use Heartide\Response\Response;
+use Psr\Container\ContainerInterface;
+
+    /**
+     * @Inject
+     * @var Response
+     */
+    protected $response;
+```
+
+- 在任意类和方法中调用
+```php
+   return $this->response->success($array);
+   return $this->response->fail($array);
+```
