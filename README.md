@@ -19,7 +19,7 @@
 - 引入组件
 
 ```bash
-$ compsoer require "heartide/response"
+$ composer require "heartide/response"
 ```
 
 # 使用
